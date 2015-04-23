@@ -1,0 +1,421 @@
+﻿a
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#feedbackContainer 
+{
+    font-size: .75em;
+    height: 100%;
+    overflow: auto;
+    /*position added to fix relative-position bug in IE6 IE7 (comment divs were staying fixed while scrolling)*/
+    position: relative;
+}
+
+#feedbackMinWidth 
+{
+	min-width: 240px;
+}
+
+#refreshFeedbackDiv
+{
+	float: right;
+	padding: 10px 10px 0px 10px;
+}
+
+#feedbackPageNameHeader
+{
+    padding: 10px 20px 0px 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 23px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#commenterRenameContainer 
+{
+	text-align: right;
+    padding: 5px 14px 0px 10px;
+    color: #666;
+}
+
+a.commenterRenameLink {
+    color: #006699;
+}
+
+.inputHintOverlay
+{
+	color: #999999;
+	font-style: italic;
+}
+
+#feedbackNewIssue div.feedbackEntryTextBoxContainer {
+    margin: 10px 14px 6px 10px;
+}
+
+#feedbackNewIssue input.feedbackEntryTextBox {
+    width: 100%;
+}
+
+#feedbackNewIssue img.topicLoading {
+	float: left;
+    margin-left: 10px;
+}
+
+#feedbackNewIssue div.charsLeft {
+    margin-bottom: 3px;
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+div.feedbackIssue input.feedbackEntryTextBox {
+    width: 100%;
+}
+
+div.feedbackIssue div.feedbackEntryTextAreaContainer
+{
+	margin: 10px 5px 0px 0px;
+}
+
+div.feedbackIssue textarea.feedbackEntryTextArea 
+{
+	font-family: Arial;
+    width: 100%;
+}
+
+div.feedbackIssue .noCommentsMessage
+{
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFF;
+	font-style: italic;
+}
+
+div.feedbackIssue a.deleteIssueLink, a.deleteScreenshotLink {
+	position: absolute;
+	right: 4px;
+	color: #006699;
+	font-size: 13px;
+}
+
+div.feedbackIssue {
+    margin: 10px;
+    padding: 0px 5px 5px 5px;
+    background-color:#E7F0F7;
+    border: 1px solid #D7E0E7;
+    /*border-radius: 3px;*/
+    position: relative;
+}
+
+div.feedbackItem {
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid #FFF;
+}
+
+div.topicHeader 
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 5px 0px 0px 0px;
+	margin-right: 10px;
+}
+
+div.topicSubHeader 
+{
+	padding-top: 2px;
+	font-size: .9em;
+	color: #666;
+}
+
+span.topicCreator 
+{
+	color: #000;
+}
+
+div.topicExpandContainer 
+{
+	padding-top: 3px;
+}
+
+a.expandIssueLink 
+{
+	color: #069;
+}
+
+a.collapseIssueLink 
+{
+	color: #069;
+}
+
+div.feedbackItem_header {
+    margin-bottom: 5px;
+}
+
+div.feedbackItem_commenter {
+    display:inline;
+    color: #F60;
+    font-weight:bold;
+}
+
+div.feedbackItem_commentDate {
+    display: inline;
+    color: #666;
+    padding-left: 5px;
+}
+
+div.feedbackItem_commentText {
+    margin: 5px 0px 5px 0px;
+    color: #333;
+    line-height: 1.2em;
+}
+
+div.feedbackItem_commentLastModified {
+    color: #333;
+    text-align: right;
+    font-style: italic;
+    font-size: .75em;
+    padding: 0px 5px 10px 0px;
+}
+
+div.feedbackDeleteItem {
+    color: #FF0000;
+}
+
+div.feedbackDeleteConfirm 
+{
+    margin: 5px 0px 5px 0px;
+}
+
+div.feedbackItem_links, div.feedbackDeleteItemLinks {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+div.feedbackItem_links a, div.feedbackDeleteItemLinks a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #006699;
+}
+
+a.awesomeButton {
+    background: #009DDA;
+    display: inline-block;
+    padding: 3px 10px 4px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    /*box-shadow: 0 1px 3px #999;*/
+    /*text-shadow: 0 -1px 1px #222;*/
+    /*border-bottom: 1px solid #222;*/
+    cursor: pointer;
+    position: static;
+    /*border-radius: 0px;*/
+}
+
+a.awesomeButton:hover {
+    background: #3b8fc0;
+}
+
+a.feedbackIssueNewCommentLink {
+    padding: 3px 15px 4px;
+    margin: 0px 5px 5px 0px;
+}
+
+div.editIssueLinks {
+    text-align: right;
+}
+
+div.feedbackEntryItem {
+}
+
+div.feedbackEntryItemLinks {
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+a.feedbackEntryItemSave {
+    padding: 3px 15px 4px;
+}
+
+#feedbackNewIssue div.feedbackEntryItemLinks a {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+div.feedbackIssue div.feedbackEntryItemLinks a {
+    margin: 5px 5px 5px 5px;
+}
+
+a.feedbackEntryItemCancel {
+    color: #006699;
+}
+
+a.feedbackEntryItemScreenshot {
+    color: #006699;
+}
+
+.commenterSetNameDialog, .feedbackAuthDialog {
+    border: solid 1px #AAA;
+    width: 190px;
+    background:white;
+    display:none;
+    position: absolute;
+    padding:13px;
+    /*border-radius:5px;*/
+    z-index:101;
+}
+
+.feedbackAuthDialog {
+    font-size: 0.75em;
+}
+
+/* Screenshot Feature Styling */
+
+img.screenshotIssueIcon, img.screenshotIcon {
+    padding: 1px 15px 2px;
+    background-color: #d7e0e7;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+img.screenshotIssueIcon:hover, img.screenshotIcon:hover {
+    background: #b7c7d4;
+}
+
+img.screenshotIssueIcon {
+    margin-left: 10px;
+}
+
+img.screenshotGenerating {
+    float: left;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+#screenshotPanel {
+    cursor: url('images/crosshair.cur') 8 8, auto;
+}
+
+.screenshotOverlay {
+    position: absolute;
+}
+
+.blackoutOverlay {
+    position: absolute;
+    background-color: #000000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.blackoutTextOverlay {
+    position: absolute;
+    pointer-events: none;
+    color: #EEE;
+    padding: 2px;
+    font-size: 56px;
+    text-align: center;
+}
+
+div.feedbackItem_thumbnail {
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #FFF; 
+    background-color: #d7e0e7;
+}
+
+div.feedbackItem_thumbnailImg {
+    text-align: center;
+    /*height: 130px;*/
+}
+
+div.feedbackItem_deleteDiv {
+    right: 1px;
+    position: absolute;
+}
+
+img.deleteIcon {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+img.thumbnailImg {
+    position: relative;
+    max-width: 90%;
+    max-height: 120px;
+    display: block;
+    margin: 0 auto;
+    cursor: zoom-in;
+    cursor: pointer;
+}
+
+img.fullsizeImg {
+    display: none;
+}
+
+div.preloadDiv {
+    width: 100%;
+    height: 100%;
+    top: 0px; 
+    text-align: center;
+    position: absolute;
+    background: url('images/loading.gif') no-repeat center center;
+    background-size: 110%;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+}
+
+div#previewPanel {
+    position: absolute;
+}
+
+.blackoutPreviewOverlay {
+    position: absolute;
+    background-color: #000000;
+    filter: alpha(opacity=85);
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+img.previewImg {
+    position: absolute;
+    max-width: 90%;
+}
+
+img.previewCloseIcon {
+    position: absolute;
+    cursor: pointer;
+}
+
+h3 {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: nexa_lightregular, Arial;
+	font-size: 25px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.dialogDiv {
+    border: solid 1px #AAA;
+    width: 190px;
+    background:white;
+    position: absolute;
+    padding: 5px;
+    z-index:101;
+    text-align: center;
+}
+
+div#browserMsg {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    color: #666; 
+}

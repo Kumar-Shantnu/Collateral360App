@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA7B6AC4-FF09-43DD-8C7B-2D2EF38C6AB0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Collateral360App</RootNamespace>
+    <AssemblyName>Collateral360App</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\font-awesome.css" />
+    <Content Include="fonts\font-awesome.min.css" />
+    <Content Include="modules\dashboard\config.js" />
+    <Content Include="modules\dashboard\dashboardCtrl.js" />
+    <Content Include="modules\dashboard\directives.js" />
+    <Content Include="modules\dashboard\filters.js" />
+    <Content Include="modules\dashboard\services.js" />
+    <Content Include="modules\dashboard\views\dashBoard.html" />
+    <Content Include="modules\login\config.js" />
+    <Content Include="modules\login\loginCtrl.js" />
+    <Content Include="modules\login\directives.js" />
+    <Content Include="modules\login\filters.js" />
+    <Content Include="modules\login\services.js" />
+    <Content Include="scripts\vendor\angular-route.min.js" />
+    <Content Include="scripts\vendor\angular-ui-router.min.js" />
+    <Content Include="scripts\vendor\angular.min.js" />
+    <Content Include="scripts\vendor\bootstrap.min.js" />
+    <Content Include="scripts\vendor\jquery-2.1.0.min.js" />
+    <Content Include="styles\css" />
+    <Content Include="styles\css%281%29" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\landingPage\arrowmask_u147.png" />
+    <Content Include="images\landingPage\arrow_u145.png" />
+    <Content Include="images\landingPage\fbloading.gif" />
+    <Content Include="images\landingPage\forgotbutton_u170.png" />
+    <Content Include="images\landingPage\icon-camera.png" />
+    <Content Include="images\landingPage\logo.png" />
+    <Content Include="images\landingPage\refresh.png" />
+    <Content Include="images\landingPage\textfieldcontainer_u128.png" />
+    <Content Include="images\landingPage\textfieldcontainer_u139.png" />
+    <Content Include="images\landingPage\transparent.gif" />
+    <Content Include="images\landingPage\u0_state0.png" />
+    <Content Include="images\landingPage\u10.png" />
+    <Content Include="images\landingPage\u103.png" />
+    <Content Include="images\landingPage\u105.png" />
+    <Content Include="images\landingPage\u108.png" />
+    <Content Include="images\landingPage\u110.png" />
+    <Content Include="images\landingPage\u116_line.png" />
+    <Content Include="images\landingPage\u117_line.png" />
+    <Content Include="images\landingPage\u12.png" />
+    <Content Include="images\landingPage\u121.png" />
+    <Content Include="images\landingPage\u149_line.png" />
+    <Content Include="images\landingPage\u15.png" />
+    <Content Include="images\landingPage\u173.png" />
+    <Content Include="images\landingPage\u20.png" />
+    <Content Include="images\landingPage\u23.png" />
+    <Content Include="images\landingPage\u25.png" />
+    <Content Include="images\landingPage\u29.png" />
+    <Content Include="images\landingPage\u31.png" />
+    <Content Include="images\landingPage\u34.png" />
+    <Content Include="images\landingPage\u38_line.png" />
+    <Content Include="images\landingPage\u52.png" />
+    <Content Include="images\landingPage\u58.png" />
+    <Content Include="images\landingPage\u60.png" />
+    <Content Include="images\landingPage\u63.png" />
+    <Content Include="images\landingPage\u65.png" />
+    <Content Include="images\landingPage\u71.png" />
+    <Content Include="images\landingPage\u74.png" />
+    <Content Include="images\landingPage\u80.png" />
+    <Content Include="images\landingPage\u82.png" />
+    <Content Include="images\landingPage\u85.png" />
+    <Content Include="images\landingPage\u89.png" />
+    <Content Include="images\landingPage\u93.png" />
+    <Content Include="images\landingPage\u97.png" />
+    <Content Include="images\landingPage\u99.png" />
+    <Content Include="images\landingPage\_btn-default_u162.png" />
+    <Content Include="images\landingPage\_btn-primary_u112.png" />
+    <Content Include="images\landingPage\_btn-primary_u164.png" />
+    <Content Include="images\landingPage\_btn-primary_u177.png" />
+    <Content Include="images\landingPage\_panel-body_u143.png" />
+    <Content Include="index.html" />
+    <Content Include="modules\login\views\landingPage.html" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\routes.js" />
+    <Content Include="styles\axImgAreaSelect.css" />
+    <Content Include="styles\axure_rp_page.css" />
+    <Content Include="styles\bootstrap.min.css" />
+    <Content Include="styles\css.css" />
+    <Content Include="styles\css_002.css" />
+    <Content Include="styles\default.css" />
+    <Content Include="styles\feedback.css" />
+    <Content Include="styles\jquery-ui-themes.css" />
+    <Content Include="styles\nexa_lightregular.css" />
+    <Content Include="styles\page_notes.css" />
+    <Content Include="styles\reset.css" />
+    <Content Include="styles\sitemap.css" />
+    <Content Include="styles\styles%281%29.css" />
+    <Content Include="styles\styles.css" />
+    <Content Include="styles\styles_002.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9291</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9291/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

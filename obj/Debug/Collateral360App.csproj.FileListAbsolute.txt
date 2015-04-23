@@ -1,0 +1,6 @@
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\bin\Collateral360App.dll.config
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\bin\Collateral360App.dll
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\bin\Collateral360App.pdb
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\obj\Debug\Collateral360App.csprojResolveAssemblyReference.cache
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\obj\Debug\Collateral360App.dll
+E:\C#\C#SampleProgrammes\Collateral360App\Collateral360App\obj\Debug\Collateral360App.pdb
